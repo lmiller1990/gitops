@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: Deployment # Job, Pod, ConfigMap, etc...
 metadata:
   name: blog
   labels:
