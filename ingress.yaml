@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: blog-ingress
 spec:
-  ingressClassNae: nginx
+  ingressClassName: nginx
   rules:
     - host: blog.lachlan-miller.me
       http:
