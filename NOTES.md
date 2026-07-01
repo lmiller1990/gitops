@@ -32,3 +32,11 @@ minikube ip
 ```
 
 We could route the from the host using 192.168.49.2:30602.
+
+We need to apply changes:
+
+```sh
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+kubectl apply -f ingress.yaml
+```
